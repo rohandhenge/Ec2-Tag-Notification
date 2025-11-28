@@ -10,7 +10,7 @@
 CloudWatch Events (EventBridge): Will trigger periodically to check for EC2 instances.
 Lambda Function: Will be invoked by the event to check for instances that do not have the required tag or its value is missing.
 SNS Topic: Sends an email notification when such instances are found.
-Screenshot 2024-10-12 at 10 51 14 AM
+
 
 
 ![](./img/overview.jpg)
@@ -85,5 +85,6 @@ Test the Solution You can either manually run the Lambda function from the conso
 -Ensuring proper tagging for better cost and resource management in AWS.
 
 -Stay tuned for this hands-on tutorial and simplify your AWS management!
+
 
 #AWS #CloudAutomation #EC2Monitoring #LambdaFunction #EventBridge #TagCompliance #CloudWatch #DevOps #CloudComputing #CloudInfrastructure
